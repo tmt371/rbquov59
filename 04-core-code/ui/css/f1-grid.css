@@ -1,0 +1,109 @@
+/* /04-core-code/ui/css/f1-grid.css */
+
+.f1-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px 8px; /* A bit tighter than F2 grid */
+    align-items: center;
+}
+
+.f1-grid-cell {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* --- Top Section: Headers and Buttons --- */
+.f1-header-label {
+    font-weight: bold;
+    color: #4a5568;
+}
+
+.f1-button {
+    background-color: #fef08a; /* Yellow background */
+    border: 1px solid #facc15;
+    border-radius: 4px;
+    padding: 8px 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.f1-button:hover {
+    background-color: #fde047;
+}
+
+/* --- Spacer Row --- */
+.f1-spacer-row {
+    height: 1px;
+    background-color: #ef4444; /* Red color as per image */
+    margin: 10px 0;
+}
+
+/* --- Bottom Section: Component List --- */
+.f1-component-header {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: left;
+    border-bottom: 2px solid var(--panel-border-color);
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+}
+
+.f1-col-title {
+    font-weight: bold;
+    color: #1f2937;
+    border: 1px solid black;
+}
+
+.f1-item-label {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.f1-sub-item {
+    padding-left: 20px; /* Indent sub-items */
+}
+
+.f1-input-qty {
+    background-color: #bfdbfe; /* Blue background */
+    border: 1px solid #93c5fd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.f1-qty-display {
+    background-color: #bfdbfe; /* Blue background for consistency */
+    border: 1px solid #93c5fd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 28.5px; /* Match input height */
+    font-family: "Menlo", "Consolas", monospace;
+}
+
+.f1-price-display {
+    background-color: #dcfce7; /* Green background */
+    border: 1px solid #86efac;
+    border-radius: 4px;
+    padding: 5px;
+    min-height: 28.5px; /* Match input height */
+    box-sizing: border-box;
+    text-align: right;
+    font-family: "Menlo", "Consolas", monospace;
+}
+
+.f1-total-label {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: left;
+    padding-left: 5px;
+}

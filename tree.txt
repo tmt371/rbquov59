@@ -1,0 +1,67 @@
+D:.
+¢x   index.html
+¢x   jest.config.js
+¢x   package.json
+¢x   style.css
+¢x
+¢u¢w¢w¢w 03-data-models
+¢x       price-matrix-v1.0.json
+¢x
+¢|¢w¢w¢w 04-core-code
+    ¢x   app-controller.js
+    ¢x   config-manager.js
+    ¢x   event-aggregator.js
+    ¢x   input-handler.js
+    ¢x   left-panel-input-handler.js
+    ¢x   main.js
+    ¢x
+    ¢u¢w¢w¢w config
+    ¢x       initial-state.js
+    ¢x
+    ¢u¢w¢w¢w services
+    ¢x       calculation-service.js
+    ¢x       calculation-service.spec.js
+    ¢x       file-service.js
+    ¢x       focus-service.js
+    ¢x       quote-service.js
+    ¢x       quote-service.spec.js
+    ¢x       ui-service.js
+    ¢x
+    ¢u¢w¢w¢w strategies
+    ¢x       product-factory.js
+    ¢x       roller-blind-strategy.js
+    ¢x
+    ¢u¢w¢w¢w ui
+    ¢x   ¢x   dialog-component.js
+    ¢x   ¢x   left-panel-component.js
+    ¢x   ¢x   notification-component.js
+    ¢x   ¢x   panel-component.js
+    ¢x   ¢x   right-panel-component.js
+    ¢x   ¢x   summary-component.js
+    ¢x   ¢x   table-component.js
+    ¢x   ¢x   ui-manager.js
+    ¢x   ¢x
+    ¢x   ¢u¢w¢w¢w css
+    ¢x   ¢x       dialog.css
+    ¢x   ¢x       f2-summary-table.css
+    ¢x   ¢x       results-table.css
+    ¢x   ¢x       right-panel.css
+    ¢x   ¢x       toast-notification.css
+    ¢x   ¢x       virtual-keyboard.css
+    ¢x   ¢x
+    ¢x   ¢u¢w¢w¢w partials
+    ¢x   ¢x       left-panel.css
+    ¢x   ¢x       left-panel.html
+    ¢x   ¢x       right-panel.html
+    ¢x   ¢x
+    ¢x   ¢|¢w¢w¢w views
+    ¢x           detail-config-view.js
+    ¢x           drive-accessories-view.js
+    ¢x           dual-chain-view.js
+    ¢x           k1-location-view.js
+    ¢x           k2-fabric-view.js
+    ¢x           k3-options-view.js
+    ¢x           quick-quote-view.js
+    ¢x
+    ¢|¢w¢w¢w utils
+            csv-parser.js
